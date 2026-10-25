@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="44%" r="78%"><stop offset="0" stop-color="#107048"/><stop offset="1" stop-color="#042016"/></radialGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fffbf0"/><stop offset="1" stop-color="#eee1be"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6e0a0"/><stop offset="1" stop-color="#967024"/></linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0e7048"/><stop offset="1" stop-color="#053422"/></linearGradient>
+    <pattern id="stars" width="102.40" height="102.40" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#d9b45a" stroke-width="1.1" opacity=".26">
+        <rect x="4.10" y="4.10" width="94.21" height="94.21"/>
+        <polygon points="51.20,-15.41 117.81,51.20 51.20,117.81 -15.41,51.20"/>
+      </g></pattern>
+    <radialGradient id="fade" cx="50%" cy="50%" r="55%"><stop offset=".35" stop-color="#000"/><stop offset="1" stop-color="#fff"/></radialGradient>
+    <mask id="rim"><rect width="512" height="512" fill="url(#fade)"/></mask>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="150%"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="108" fill="url(#stars)" mask="url(#rim)"/>
+  <rect x="21.5" y="21.5" width="469" height="469" rx="66.5" fill="none" stroke="#d9b45a" stroke-width="5.5"/>
+  <rect x="38" y="38" width="436" height="436" rx="51" fill="none" stroke="#f6e0a0" stroke-opacity=".6" stroke-width="1.8"/>
+  <g fill="#f6e0a0" stroke="#967024" stroke-width="1"><path d="M256 10.5l11 11-11 11-11-11z"/><path d="M256 479.5l11 11-11 11-11-11z" transform="translate(0 -22)"/><path d="M10.5 256l11 11-11 11-11-11z" transform="translate(11 -11)"/><path d="M501.5 256l11 11-11 11-11-11z" transform="translate(-33 -11)"/></g>
+  <rect x="102.4" y="118.8" width="307.2" height="307.2" rx="52.2" fill="#000" fill-opacity=".72" filter="url(#blur)"/>
+  <rect x="102.4" y="100.4" width="307.2" height="322.6" rx="52.2" fill="url(#edge)"/>
+  <rect x="102.4" y="97.3" width="307.2" height="307.2" rx="52.2" fill="url(#face)" stroke="#fffff8" stroke-opacity=".9" stroke-width="1.6"/>
+  <rect x="120.2" y="115.1" width="271.6" height="271.6" rx="37.5" fill="none" stroke="#d9b45a" stroke-width="2.4"/>
+  <rect x="128.5" y="123.4" width="255.0" height="255.0" rx="32.3" fill="none" stroke="#d9b45a" stroke-opacity=".45" stroke-width="1"/>
+  <g transform="translate(140.85 282.86) scale(0.25047)"><path d="M635 -463 716 -418 666 -336 585 -381ZM556 -118Q601 -180 669.0 -220.0Q737 -260 780 -260Q818 -260 853.5 -218.0Q889 -176 889 -142Q889 -97 850.5 -48.5Q812 0 783 0Q705 0 635.5 -17.5Q566 -35 536 -56Q536 78 522 154Q427 242 260 242Q160 242 107.5 198.5Q55 155 55 50Q56 20 61.5 -8.0Q67 -36 72.5 -51.0Q78 -66 90.0 -94.5Q102 -123 107 -136L154 -120Q142 -87 137.5 -73.0Q133 -59 129.0 -37.0Q125 -15 125 9Q125 47 128.5 67.5Q132 88 145.0 106.0Q158 124 186.0 131.0Q214 138 261 138Q322 138 363.0 128.5Q404 119 417.5 110.5Q431 102 473 74Q473 36 452.0 -36.0Q431 -108 407 -140L492 -244Q516 -203 530 -139ZM686 -102Q805 -102 805 -133Q804 -138 800.5 -146.0Q797 -154 782.5 -167.0Q768 -180 748 -180Q704 -180 615 -104Q677 -102 686 -102Z" fill="#fff" fill-opacity=".8"/></g>
+  <g transform="translate(137.78 278.56) scale(0.25047)"><path d="M635 -463 716 -418 666 -336 585 -381ZM556 -118Q601 -180 669.0 -220.0Q737 -260 780 -260Q818 -260 853.5 -218.0Q889 -176 889 -142Q889 -97 850.5 -48.5Q812 0 783 0Q705 0 635.5 -17.5Q566 -35 536 -56Q536 78 522 154Q427 242 260 242Q160 242 107.5 198.5Q55 155 55 50Q56 20 61.5 -8.0Q67 -36 72.5 -51.0Q78 -66 90.0 -94.5Q102 -123 107 -136L154 -120Q142 -87 137.5 -73.0Q133 -59 129.0 -37.0Q125 -15 125 9Q125 47 128.5 67.5Q132 88 145.0 106.0Q158 124 186.0 131.0Q214 138 261 138Q322 138 363.0 128.5Q404 119 417.5 110.5Q431 102 473 74Q473 36 452.0 -36.0Q431 -108 407 -140L492 -244Q516 -203 530 -139ZM686 -102Q805 -102 805 -133Q804 -138 800.5 -146.0Q797 -154 782.5 -167.0Q768 -180 748 -180Q704 -180 615 -104Q677 -102 686 -102Z" fill="url(#ink)"/></g>
+</svg>
